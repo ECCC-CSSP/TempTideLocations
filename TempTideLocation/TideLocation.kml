@@ -1,0 +1,4672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+    <name>Tide Location</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_grn-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_grn-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_grn-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+    <Folder>
+        <name>BC</name>
+        <Placemark>
+            <name>7030,Becher Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.636413574219,48.3335838317871,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7350,Bedwell Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.223205566406,48.7453994750977,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7455,Chemainus</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.734481811523,48.9301643371582,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7310,Cowichan Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.621551513672,48.7373085021973,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7450,Crofton</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.645797729492,48.8638458251953,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7110,Esquimalt</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.411231994629,48.4358406066895,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7109,Esquimalt Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.433334350586,48.4333343505859,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7284,Finlayson Arm</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.53450012207,48.4924011230469,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7140,Finnerty Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.309211730957,48.4656066894531,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7330,Fulford Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.449447631836,48.7713584899902,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7407,Ganges Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.497657775879,48.8535423278809,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7525,Georgina Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.29810333252,48.8618507385254,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7360,Hope Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.276985168457,48.8026809692383,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7460,Ladysmith</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.816101074219,48.9953384399414,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7315,Maple Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.615112304688,48.8172378540039,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7420,Montague Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.383331298828,48.8833312988281,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7345,Narvaez Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.141868591309,48.7852058410645,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7130,Oak Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.316513061523,48.426139831543,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7277,Patricia Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.392845153809,48.5540885925293,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7080,Pedder Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.578048706055,48.3493156433105,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7471,Preedy Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.681129455566,48.9659194946289,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7013,Sheringham Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.921081542969,48.3766899108887,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7260,Sidney</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.399002075195,48.6502418518066,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7020,Sooke</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.735557556152,48.3740348815918,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7024,Sooke Basin</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.735557556152,48.3740348815918,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7510,Tumbo Channel</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.062812805176,48.7827033996582,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7120,Victoria</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.365646362305,48.4284210205078,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7414,Village Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.316665649414,48.8499984741211,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7532,Whaler Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.323310852051,48.8826866149902,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7480,Boat Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.798355102539,49.0910224914551,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7843,Boom Islet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.903907775879,49.7452278137207,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7535,Dionisio Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.57447052002,49.0062294006348,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7820,Gibsons</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.51522064209,49.3974189758301,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7830,Halfmoon Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.90592956543,49.5139656066895,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7917,Nanaimo</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.940063476563,49.1658821105957,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7654,New Westminster</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-122.910957336426,49.2057189941406,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7795,Point Atkinson</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.264991760254,49.3299331665039,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7852,Porpoise Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.758071899414,49.4830169677734,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7755,Port Moody</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-122.831665039063,49.2830543518066,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7550,Silva Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.701400756836,49.1489944458008,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7811,Squamish</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.155815124512,49.7016334533691,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7607,Steveston</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.179328918457,49.133659362793,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7590,Tsawwassen</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.081825256348,49.0180397033691,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7735,Vancouver</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.120735168457,49.2827301025391,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7577,White Rock</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-122.802963256836,49.0253067016602,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8545,Bamfield</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.142837524414,48.8332901000977,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8630,Cypress Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.451751708984,48.6843643188477,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8585,Effingham Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.414733886719,48.4315147399902,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8565,Franklin River</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.776741027832,49.1640663146973,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8623,Kennedy Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-122.834991455078,55.0970230102539,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8575,Port Alberni</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.805549621582,49.23388671875,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8525,Port Renfrew</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.422302246094,48.5529670715332,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8588,Stopper Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.342842102051,48.9971122741699,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8615,Tofino</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.906616210938,49.1529846191406,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8595,Ucluelet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.546340942383,48.9416007995605,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8650,Gold River</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.049613952637,49.7781639099121,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8637,Riley Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.008262634277,54.011173248291,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8645,Saavedra Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.614166259766,49.6172981262207,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8634,Sulphur Passage</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-115.112663269043,49.6658058166504,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8670,Zeballos</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.845405578613,49.981803894043,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7865,Blind Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-119.397705078125,50.8862724304199,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7875,Blubber Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.62329864502,49.7947044372559,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7965,Comox</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.928268432617,49.673511505127,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7955,Denman Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.79810333252,49.5629692077637,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7982,False Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.349273681641,49.4909515380859,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7953,Hornby Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.675880432129,49.5353698730469,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7836,Irvines Landing</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.05753326416,49.6329231262207,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7993,Little River</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.909889221191,49.7342224121094,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7885,Lund</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.759071350098,49.9818458557129,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7895,Mitlenatch Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.002159118652,49.9507522583008,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7930,Nanoose Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.193054199219,49.2723159790039,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7938,Northwest Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.217475891113,49.2910766601563,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7880,Powell River</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.524703979492,49.8352355957031,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7868,Saltery bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.17943572998,49.7839813232422,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7990,Welcome Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.654251098633,48.653076171875,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7935,Winchelsea Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.075622558594,49.2896423339844,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8060,Big Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.133331298828,50.4000015258789,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8110,Brown Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.403274536133,50.1595878601074,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8074,Campbell River</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.273338317871,50.0331230163574,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8015,Channel Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.749687194824,50.3204574584961,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8180,Chatham Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.477508544922,50.3263549804688,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8150,Cordero Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.501899719238,50.4452018737793,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8310,Glendale Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.717102050781,50.6753883361816,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8037,Gorge Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.967811584473,50.0871238708496,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8035,Heriot Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.216888427734,50.1006393432617,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8215,Kelsey Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.960060119629,50.3945579528809,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8065,Orford Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.840667724609,50.598934173584,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8120,Owen Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.216667175293,50.3166656494141,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8025,Redonda Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.949096679688,50.2600288391113,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8145,Shoal Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.31103515625,48.7743682861328,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8045,Surge Narrows</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.098281860352,50.2353286743164,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7892,Twin Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.931732177734,50.026123046875,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8069,Waddington Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.586921691895,50.5968055725098,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8038,Whaletown Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.048377990723,50.1076126098633,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8280,Alert Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.925407409668,50.5844841003418,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8790,Cape Scott</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-128.370590209961,50.7833366394043,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8325,Cedar Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.684059143066,50.6553573608398,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8765,Coal Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.122497558594,49.2890853881836,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8736,Hunt Islets</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-128.032348632813,50.472900390625,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8348,KingCome Inlet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.199996948242,50.9500007629395,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8347,Kwatsi Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.497184753418,50.7523994445801,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8710,Kyuquot</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.377243041992,50.0284156799316,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8258,Lagoon Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-121.565399169922,51.0926666259766,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8756,Makwazniht Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.55445098877,50.5558776855469,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8750,Port Alice</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.48770904541,50.4254302978516,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8408,Port Hardy</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.49666595459,50.7208213806152,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8250,Port Harvey</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.266670227051,50.5499992370605,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8290,Port McNeill</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.084754943848,50.5901412963867,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8245,Port Neville</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.085815429688,50.4929351806641,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8394,Raynor Group</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.228988647461,50.8812255859375,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8105,Seymous Narrows</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-125.354774475098,50.1362609863281,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8364,Sullivan Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.816665649414,50.8833312988281,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8426,Walker Group</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.520393371582,50.9036026000977,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8735,Winter Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-128.028259277344,50.5242385864258,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8860,Addenbroke Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.844062805176,51.6073760986328,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8482,Belize Inlet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.226943969727,51.155834197998,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8812,Boswell Inlet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.336944580078,51.3886108398438,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8868,Edward Channel</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-129.9169921875,54.2772598266602,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8805,Egg Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.834190368652,51.249942779541,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8458,Frederick Sound</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.751113891602,51.0216674804688,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8476,Mereworth Sound</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.465553283691,51.2038879394531,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8870,Namu</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.867134094238,51.861385345459,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8814,Smith Inlet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.166114807129,51.396110534668,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8912,Spider Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-128.259368896484,51.850757598877,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8840,Wadhams</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.5,51.5166664123535,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8976,Bella Bella</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-128.145584106445,52.1605415344238,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8937,Bella Coola</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-126.753936767578,52.372127532959,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9020,Griffin Passage</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.965660095215,49.7001991271973,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9056,Higgings Passage</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.348762512207,48.4408340454102,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9035,Klemtu</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-128.52409362793,52.5936317443848,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9077,McKenney Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-129.483367919922,52.6409568786621,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9063,Milne Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-128.772506713867,52.6103172302246,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8962,Ocean Falls</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.693748474121,52.3540191650391,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9058,Price Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-128.71565246582,52.4396018981934,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9067,Smithers Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-129.071060180664,52.7610816955566,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8917,Stryker Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-128.346908569336,52.109317779541,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>8981,Troup Passage</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-117.244888305664,49.3479270935059,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9115,Barnard Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-129.112930297852,53.0710411071777,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9165,Block Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-129.736694335938,53.1579780578613,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9130,Hartley Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-129.253509521484,53.4239196777344,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9140,Kitimat</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-128.636962890625,54.0632743835449,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9242,Kitkatla Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-130.37483215332,53.8004417419434,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9312,Lawyer Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-130.341445922852,54.112232208252,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9195,Lowe Inlet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-129.579864501953,53.5553016662598,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9325,Moffatt Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-130.701248168945,54.4171562194824,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9342,Port Edward</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-130.291397094727,54.2283554077148,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9354,Prince Rupert</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-130.320816040039,54.3150367736816,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9306,Refuge Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-130.600952148438,54.0163345336914,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9448,Alice Arm</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-129.489974975586,55.4828224182129,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9443,Granby Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-124.518730163574,49.6992073059082,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9422,Kincolith</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-129.954864501953,54.9946556091309,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9390,Port Simpson</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-130.432327270508,54.5628890991211,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9418,Ranger Islet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-130.174606323242,54.8364181518555,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9475,Stewart</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-129.987884521484,55.9413108825684,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9502,Cape St. James</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-131.015609741211,51.9358367919922,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9724,Copper Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-131.207504272461,52.3516654968262,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9635,Dawson Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.112411499023,49.2758636474609,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9512,Gordon Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-127.483581542969,50.817455291748,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9511,Houston Stewart Channel</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-95.3698043823242,29.7604274749756,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9775,Pacofi</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-131.884170532227,52.8504066467285,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9961,Egeria Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-132.989532470703,54.2181015014648,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9927,Juskatla</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-132.312133789063,53.6142501831055,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9910,Masset</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-132.147201538086,54.0114593505859,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9790,McCoy Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-123.316452026367,48.4702529907227,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9920,Port Clements</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-132.313583374023,53.612850189209,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9850,Queen Charlotte</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-132.086868286133,53.2549934387207,0 </coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+    <Folder>
+        <name>NB</name>
+        <Placemark>
+            <name>2130,Bathurst</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.6513366699219,47.618350982666,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2145,Belledune</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.8114776611328,47.8859481811523,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2175,Campbellton</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.6722030639648,48.0074005126953,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2110,Caraquet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.9628295898438,47.7897300720215,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2165,Dalhousie</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.3731155395508,48.0657768249512,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2090,Miscou</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.5195159912109,47.9604377746582,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2319,Sandy Beach Centre</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-77.9355163574219,34.1936531066895,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2071,Shippagan</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.705696105957,47.7439270019531,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2070,Shippegan Gully</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.6653823852539,47.7185020446777,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2120,Stonehaven</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.3640441894531,47.7478828430176,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2060,Tracadie</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.9120864868164,47.5120697021484,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2028,Bay du Vin</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.1382675170898,47.0413856506348,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2025,Burnt Church</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.1390151977539,47.1989326477051,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1800,Cap Pelé</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.2792510986328,46.2141494750977,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1810,Cap de Caissie</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.566162109375,46.3371353149414,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1790,Cape Tormentine</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.7926788330078,46.1283073425293,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2035,Chatham</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.4690017700195,47.0310401916504,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1812,Cocagne Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.5926208496094,46.3512306213379,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2014,Cormoran</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.1134872436523,45.2931327819824,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2000,Escuminac</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.913932800293,47.0769271850586,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2012,Fox Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.0034255981445,47.1094131469727,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2033,Loggieville</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.3717956542969,47.0707817077637,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2020,Lower Neguac</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.0588150024414,47.2675704956055,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2022,Neguac</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.0708847045898,47.2553062438965,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2040,Newcastle</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.566162109375,47.0015449523926,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2030,Oak Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.0931396484375,45.5136489868164,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1830,Pointe-Sapin</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.8298416137695,46.9639205932617,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1785,Port Elgin</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.0878219604492,46.0496444702148,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2010,Portage Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.0401763916016,47.1685333251953,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1827,Richibucto</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.8659820556641,46.6817855834961,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1825,Richibucto Bar</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.795939,46.724188,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1820,Richibucto Cape</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.7333297729492,46.7000007629395,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2029,Robichaud Spit</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.384395,46.219503,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1805,Shediac Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.5244293212891,46.2815170288086,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>150,Cape Enrage</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.7897186279297,45.5977783203125,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>160,Grindstone Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.6166534423828,45.7234573364258,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>170,Hopewell Cape</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.5764312744141,45.8477325439453,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>175,Moncton</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.7782287597656,46.087818145752,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>190,Pecks Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.4819259643555,45.7422180175781,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>129,St. Martins</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.5556259155273,45.3481521606445,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>30,Back Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.8695831298828,45.0561141967773,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>44,Beaver Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.7426452636719,45.0732765197754,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>42,Blacks Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.7849731445313,45.0588874816895,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>103,Cambridge Narrows</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.9562835693359,45.8300666809082,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4,Cutler</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-67.2038726806641,44.6575775146484,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>46,Dipper Harbour West</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.4310455322266,45.0957832336426,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>21,East Quoddy Head</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.9692764282227,44.814697265625,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>98,Evandale</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.0309677124023,45.5903358459473,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>25,Fairehaven</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-67.0045852661133,44.9688339233398,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>120,Fredericton</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.6431121826172,45.9635887145996,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>7,Gannet Rock</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.7825012207031,44.5094451904297,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>9,Garnet Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-67.1108169555664,44.9228553771973,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>97,Hatfield Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.8600311279297,45.6507339477539,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>33,Letang Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.8096313476563,45.0641098022461,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>41,Long Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.0432205200195,45.3883819580078,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>55,Lorneville</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.1555862426758,45.1830787658691,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>102,MacDonalds Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.0464935302734,45.7137641906738,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>29,Matthews Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.9716415405273,45.4487533569336,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>53,Musquash Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.245491027832,45.1558990478516,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>122,Newcastle Creek</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.0098342895508,46.0576057434082,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>10,North Head</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.7435989379883,44.7635841369629,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>16,North Lubec</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-67.0177612304688,44.8684120178223,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1,Outer Wood Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.8181838989258,44.6086463928223,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>60,Partridge Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.0536193847656,45.2382164001465,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>6,Portsmouth</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.7625503540039,43.0717544555664,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>66,Reversing Falls</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.0900955200195,45.2602157592773,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>85,Rothesay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.9943008422852,45.3888244628906,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>65,Saint John</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.0633087158203,45.2733154296875,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>5,Seal Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.8444442749023,44.6527786254883,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>14,South Lubec</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.9927597045898,44.8242454528809,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>40,St. Andrews</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-67.053092956543,45.073844909668,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>35,St. Stephen</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-67.2755584716797,45.194164276123,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>108,Upper Gagetown</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.2419662475586,45.8460540771484,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>15,Welshpool</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.9498138427734,44.8867874145508,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>11,West Quoddy Head</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.9627532958984,44.8131370544434,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>20,Wilsons Beach</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.939582824707,44.9329109191895,0 </coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+    <Folder>
+        <name>NL</name>
+        <Placemark>
+            <name>2680,Corner Brook</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.9502716064453,48.9489974975586,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2695,Fox Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.2407455444336,54.5642776489258,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2685,Lark Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-58.3644676208496,49.1019554138184,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2670,Norris Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.8366584777832,49.4966125488281,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2710,Port Harmon</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-58.5252418518066,48.530387878418,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1995,Étang-de-l'Ouest</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.3963890075684,47.114444732666,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2637,Anchor Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.7935829162598,51.2372360229492,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2660,Cow Head</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.7925796508789,49.9136428833008,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2635,Flowers Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.7278099060059,51.3000411987305,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2590,Forteau</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.9575614929199,51.478458404541,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2650,Port Saunders</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.2874794006348,50.6489562988281,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2600,Red Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.4221687316895,51.7334823608398,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2633,Savage Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.7000007629395,51.3333320617676,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2642,Shoal Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.0247535705566,51.0217552185059,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2638,St. Barbe</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.7504463195801,51.2202796936035,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2595,West St. Modeste</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.7076148986816,51.5929565429688,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1285,Caravalla Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-58.5913009643555,54.0561637878418,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1245,Cartwright</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.0233192443848,53.7070083618164,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1416,Davis Inlet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.8498268127441,55.8652381896973,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1370,Emily Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.1788635253906,54.5512084960938,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1425,Ford Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.1940460205078,56.45703125,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1465,Hebron</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.6259155273438,58.1991233825684,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1405,Hopedale</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.2114868164063,55.4579544067383,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1420,House Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.0603523254395,56.2350540161133,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1390,Makkovik</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-59.1764335632324,55.0861663818359,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1377,Mostyn Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.9958801269531,54.7325439453125,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1430,Nain</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.6968879699707,56.5416831970215,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1335,North West River</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.1429710388184,53.5255126953125,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1248,Paradise River</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.2333335876465,53.4166679382324,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1397,Postville</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-59.7724914550781,54.908203125,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1217,Punchbowl</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.7801818847656,53.2441596984863,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1280,Rigolet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-58.4288330078125,54.1799201965332,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1247,Sandwich Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.2278594970703,53.5592994689941,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1410,Shoal Tickle</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.9012680053711,52.7741050720215,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1365,Smokey</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.2385406494141,54.4687423706055,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1350,Terrington Basin</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.3940124511719,53.3469429016113,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1400,Turnavik Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-59.3462677001953,55.2971992492676,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1490,Williams Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.7666664123535,52.5585174560547,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1190,Battle Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.5852165222168,52.2736282348633,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1182,Black Joke Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.2841911315918,52.0140380859375,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1185,Castle Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.8459014892578,51.9823379516602,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1181,Cook's Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.8689346313477,51.6033821105957,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1200,Denbigh Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.8122673034668,52.5472831726074,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1186,Henley Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.8700981140137,52.0122947692871,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1165,Lock´s Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.5068664550781,47.6423492431641,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1205,Nevile Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.0955467224121,52.5550994873047,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1210,Port Hope Simpson</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.3001861572266,52.5433082580566,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1195,Port Marnham</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.7563323974609,52.3757362365723,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1180,Ship Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.0726890563965,47.0978088378906,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1170,St. Anthony</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.5958633422852,51.3704147338867,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1202,White Bear Arm</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.9591979980469,52.7606430053711,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1110,Baie Verte</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.1907272338867,49.939266204834,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1097,Beachside</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.8971519470215,49.6411094665527,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>990,Bonavista</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.1118240356445,48.6533432006836,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1080,Botwood</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.3440856933594,49.1422996520996,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1065,Bridgeport</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.8746681213379,49.551197052002,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1040,Carmanville</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.2867240905762,49.4033164978027,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1052,Change Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.4084358215332,49.6723937988281,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1008,Charlottetown</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.1192588806152,52.7715263366699,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1054,Dildo Run</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.6967887878418,49.5236854553223,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1025,Dover-Wellington</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.9793014526367,48.8757553100586,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1085,Exploits Upper Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.0683097839355,49.519401550293,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1050,Fogo Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.27490234375,49.7206535339355,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1018,Glovertown</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.0357666015625,48.6743659973145,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1125,Hampden</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.8566436767578,49.5427703857422,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1105,La Scie</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.5964965820313,49.9555587768555,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1070,Lewisporte</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.059154510498,49.2450370788574,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1095,Little Bay Arm</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.9435234069824,49.5847015380859,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1035,Musgrave Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.9595413208008,49.4518928527832,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1010,Newman Sound</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.8020057678223,48.5887145996094,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>985,Port Union</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.0848846435547,48.4977416992188,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1015,Salvage</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.635124206543,48.6889877319336,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1115,Seal Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.0633850097656,47.4826507568359,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1048,Seldom Come By</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.1875915527344,49.6138191223145,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1135,Sops Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.8343467712402,49.7668266296387,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1098,Springdale</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.072998046875,49.4974899291992,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1102,Tilt Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.6315841674805,49.8871421813965,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1049,Tilting Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.0605697631836,49.7065773010254,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1060,Twillingate</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.7622680664063,49.6486930847168,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1030,Valleyfield</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.615306854248,49.1279335021973,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>835,Argentia</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.9868240356445,47.3020515441895,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>818,Arnold´s Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.9887428283691,47.7574462890625,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>915,Bell Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-52.967700958252,47.6262283325195,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>975,Clarenville</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.9645538330078,48.1682243347168,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>977,Clifton</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.7236366271973,48.1822204589844,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>815,Come By Chance</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.9977111816406,47.8327560424805,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>890,Fermeuse Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-52.9291572570801,46.9679985046387,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>898,Gull Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.0380172729492,47.9520263671875,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>935,Harbour Grace</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.2116394042969,47.6951141357422,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>955,Heart´s Content</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.3631439208984,47.8699607849121,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>973,Hickman's Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.7308120727539,48.1023063659668,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>925,Holyrood</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.1246528625488,47.3849639892578,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1003,Jamestown</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.802921295166,48.4420623779297,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>893,Lance Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.0605621337891,47.4694862365723,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>970,Long Beach</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.8152923583984,47.996166229248,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>830,Long Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.8665504455566,47.4275207519531,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>920,Long Pond</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-52.9808311462402,47.5161094665527,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>907,Middle Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-52.7017593383789,47.649242401123,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>810,North Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.6633377075195,47.1518173217773,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>860,St. Mary's Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.5551910400391,46.934700012207,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>845,St. Bride´s</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.1722679138184,46.9199523925781,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>905,St. John´s</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-52.712833404541,47.5605430603027,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>795,Tacks Beach</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.2103576660156,47.5784759521484,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>880,Trepassey</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.360279083252,46.7361145019531,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>981,Trinity</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-53.3587379455566,48.3677444458008,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>805,Woody Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-54.1839141845703,47.784107208252,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>724,Belleoram</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.4149742126465,47.5267486572266,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>663,Grand Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-59.1701202392578,47.5867538452148,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>755,Great St. Lawrence</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.3666648864746,46.9000015258789,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>720,Harbour Breton</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.8258743286133,47.4774971008301,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>710,Hermitage</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.9281959533691,47.5573425292969,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>666,Isle aux Morts</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-58.974437713623,47.587459564209,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>665,Port aux Basques</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-59.1364288330078,47.5721130371094,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>690,Pushthrough</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.1595916748047,47.6426200866699,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>745,Saint-Pierre</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-56.1777992248535,46.7778015136719,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>705,St.Alban´s</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-55.8376846313477,47.8619766235352,0 </coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+    <Folder>
+        <name>NS</name>
+        <Placemark>
+            <name>1610,Arisaig</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.1666679382324,45.75,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1770,Cape Cliff</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.4819602966309,45.8745918273926,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1640,Caribou</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.6917915344238,45.731086730957,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1760,Malagash</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.3766441345215,45.7720985412598,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1620,Merigomish</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.4319686889648,45.630256652832,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1630,Pictou</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.7206039428711,45.6793327331543,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1635,Pictou Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.5618743896484,45.8147468566895,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1775,Pugwash</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.6602630615234,45.8507232666016,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1745,Skinners Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.0467109680176,45.7949485778809,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1780,Tidnish</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.0364837646484,45.9949378967285,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1590,Antigonish Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.9166679382324,45.716667175293,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1570,Aulds Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.4396667480469,45.6420555114746,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1600,Ballantynes Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.9199523925781,45.8581428527832,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1520,Bay St. Lawrence</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.4708099365234,47.0091209411621,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1547,Belle Cote Breakwater</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.094741,46.439833,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1550,Broad Cove Marsh</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.25,46.2999992370605,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1580,Cape Jack</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.5671195983887,45.6829147338867,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1539,Cheticamp</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.0148162841797,46.6249580383301,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1597,Cribbons Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.89911,45.756255,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1540,La Pointe</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.030143737793,46.6197242736816,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1548,Margeree Bridge</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.0720100402832,46.3845176696777,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1560,Port Hood</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.5289306640625,46.0151062011719,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2720,St. George´s Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.732666015625,45.8691024780273,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1530,St. Paul Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.15087890625,47.2046890258789,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>580,Arichat</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.0118408203125,45.5137329101563,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>620,Big Bras D'or</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.4333343505859,46.2666664123535,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>623,Black Rock Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.0694046020508,43.6802024841309,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>585,Cannes</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.966667175293,45.6333312988281,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>555,Canso Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.9898681640625,45.3388938903809,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>638,Dingwall</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.4705657958984,46.8986320495605,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>595,Fourchu</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.2593803405762,45.7156257629395,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>630,Ingonish Ferry</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.3871765136719,46.6272392272949,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>653,Johnstown</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.7333335876465,45.783332824707,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>600,Louisbourg</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-59.9713134765625,45.9221343994141,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>635,Neil's Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.3210792541504,46.8089065551758,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>612,North Sydney</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.2523803710938,46.2064819335938,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>582,Petit-de-Grat</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.9568252563477,45.5056686401367,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>576,Point Tupper</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.3534164428711,45.6056976318359,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>570,Port Hastings</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.4029350280762,45.652587890625,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>563,Sand Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.2753868103027,45.7394104003906,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>610,Sydney</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.1942253112793,46.136791229248,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>621,Table Head</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-59.9548988342285,46.2098083496094,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>491,Bedford Institute</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.678165435791,44.7158012390137,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>493,Chezzetcook Inlet</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.2408103942871,44.703556060791,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>514,Ecum Secum</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.1129379272461,44.9685249328613,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>490,Halifax</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.5753211975098,44.6488609313965,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>535,Isaacs Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.6669960021973,45.1780128479004,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>540,Larrys River</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.3770065307617,45.2214698791504,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>515,Liscomb Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.0683784484863,44.9997406005859,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>497,Little Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.8425102233887,44.7155418395996,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>516,Marie Joseph</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.0835914611816,44.9730491638184,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>500,Murphy Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.7541046142578,44.7867660522461,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>530,Port Bickerton</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.7266235351563,45.1079483032227,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>511,Port Dufferin</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.3824653625488,44.9154891967773,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>575,Port Hawkesbury</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.3585548400879,45.6276473999023,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>486,Prospect</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.7880096435547,44.4707183837891,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550,Sable Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-59.9149131774902,43.9337196350098,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>495,Salmon River Bridge</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.0265197753906,44.776195526123,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>488,Sambro Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.6025581359863,44.4791679382324,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>510,Sheet Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.5442390441895,44.9278526306152,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>525,Sherbrooke</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.9799118041992,45.1402168273926,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>520,Sonora</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.9000015258789,45.0666656494141,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>509,Spry Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.6171875,44.8464508056641,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>505,Tomlee Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.5852317810059,44.8282051086426,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>545,Whitehead</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.1833343505859,45.2333335876465,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>479,Blandford</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.1097183227539,44.4928855895996,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>482,Boutiliers Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.9527168273926,44.659797668457,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>450,Bridgewater</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.520881652832,44.3721160888672,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>485,Cliff Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.9375267028809,44.5123977661133,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>480,Hubbards</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.0517807006836,44.6427230834961,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>484,Indian Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.9350776672363,44.5322227478027,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>423,Ingomar</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.358528137207,43.5637168884277,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>440,Liverpool</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.7176818847656,44.0329780578613,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>430,Lockeport</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.1138000488281,43.6997756958008,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>455,Lunenburg</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.3188323974609,44.3770065307617,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>475,Mill Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.0633163452148,44.5865745544434,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>473,Owls Head</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.8497314453125,44.746826171875,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>435,Port Mouton</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.8487167358398,43.9273567199707,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>452,Riverport</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.3276062011719,44.2946395874023,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>426,Sandy Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.3166656494141,43.7000007629395,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>425,Shelburne</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.3240203857422,43.7643585205078,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>236,Advocate Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.7831192016602,45.3369598388672,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>305,Baxters Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.5152893066406,45.2292251586914,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>270,Burntcoat Head</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.8008308410645,45.3082389831543,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>290,Cape Blomidon</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.4006652832031,45.2070960998535,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>240,Cape D´Or</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.7623672485352,45.3075523376465,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>247,Diligent River</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.4595642089844,45.4126625061035,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>260,Five Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.022331237793,45.4863357543945,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>282,Hantsport</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.1809310913086,45.064094543457,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>140,Herring Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.5619659423828,44.571403503418,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>312,Isle Haute</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.0031433105469,45.2500534057617,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>315,Margaretsville</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.0647735595703,45.0480308532715,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>255,Parrsboro</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.3258895874023,45.4056587219238,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>245,Port Greville</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.5492630004883,45.4077529907227,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>300,Scots Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.3980407714844,45.3084106445313,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>242,Spencers Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.7151947021484,45.3546714782715,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>265,Truro</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.2869415283203,45.3657722473145,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>235,West Advocate</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.8166656494141,45.3499984741211,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>382,Abbotts Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.8111877441406,43.6604957580566,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>380,Abrams River</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.9490127563477,43.8353424072266,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>415,Barrington Passage</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.6092758178711,43.5272331237793,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>330,Broad Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.4854736328125,44.1846694946289,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>367,Tiverton</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.2218170166016,44.3873176574707,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>366,Bunker I</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.661994934082,45.5676612854004,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>334,Centreville</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.5288696289063,45.1341361999512,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>353,Church Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.1144943237305,44.3385047912598,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>405,Clark´s Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.6512145996094,43.4507064819336,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>325,Digby</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.7575531005859,44.6215286254883,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>336,East Sandy Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.094482421875,44.4835777282715,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>395,Flat Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.0047836303711,43.5081748962402,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>368,Kelley's Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.1219711303711,43.7832336425781,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>345,Lighthouse Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.0596771240234,44.5816459655762,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>385,Lower East Pubnico</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.7666702270508,43.5999984741211,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>374,Lower Wedgeport</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.9792861938477,43.7174301147461,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>355,Meteghan</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.1623382568359,44.1874656677246,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>320,Parkers Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.530632019043,44.8120155334473,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>370,Pinkney Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.0662078857422,43.7165107727051,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>360,Port Maitland</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.1471710205078,43.9819564819336,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>335,Sandy Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.094482421875,44.4835777282715,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>400,Seal Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.0191497802734,43.3945045471191,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>378,Tusket</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.9687576293945,43.8676452636719,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>420,Upper Port La Tour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.466667175293,43.5166664123535,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>375,Wedgeport</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.9803466796875,43.7351760864258,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>408,West Head</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.6500015258789,43.4500007629395,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>339,West Narrows</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.8216705322266,44.3435401916504,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>340,Westport</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.354736328125,44.2617416381836,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>390,Woods Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.7372360229492,43.5253944396973,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>365,Yarmouth</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.1173782348633,43.8374557495117,0 </coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+    <Folder>
+        <name>PE</name>
+        <Placemark>
+            <name>1885,Alberton</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.064826965332,46.8131294250488,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1725,Borden</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.6964683532715,46.2533950805664,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1710,Canoe Cove</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.2954063415527,46.1547698974609,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1835,Cape Egmont</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.099479675293,46.4023628234863,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1700,Charlottetown</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.1310691833496,46.2382392883301,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1896,Ellerslie</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.9578437805176,46.6008567810059,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1660,Georgetown</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.5335540771484,46.1843719482422,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2034,Gordon Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.0585403442383,42.3015289306641,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1665,Graham Pond</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.4549980163574,46.0946884155273,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1905,Malpeque</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.687427520752,46.5290832519531,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1855,Miminegash</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.2269668579102,46.8794059753418,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1662,Montague</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.648021697998,46.1650657653809,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1670,Murray Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.5198822021484,46.0020141601563,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1945,Naufrage</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.416675567627,46.4676361083984,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1955,North Lake Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.083179473877,46.4668960571289,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1865,North Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.072883605957,42.3711090087891,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1690,Point Prim</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.0132255554199,46.0590515136719,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1915,Rustico</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.2999992370605,46.4166679382324,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1815,Saint-Thomas-de-Kent</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.3499908447266,46.0120162963867,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1925,Savage Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.8499984741211,46.4166679382324,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1860,Skinner's Pond</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.1175384521484,46.9641265869141,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1650,Souris</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.2518348693848,46.35498046875,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1935,St. Peters Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.5810317993164,46.4174461364746,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1735,Summerside</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.7902336120605,46.3933792114258,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1875,Tignish</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.0330429077148,46.9504852294922,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1715,Victoria</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.4903373718262,46.2150382995605,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1845,West Point</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.3716659545898,46.626766204834,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1680,Wood Islands</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.7513313293457,45.965648651123,0 </coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+    <Folder>
+        <name>QC</name>
+        <Placemark>
+            <name>3345,Batiscan</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-72.2512969970703,46.4945220947266,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3200,Berthier-sur-Mer</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.7309646606445,46.9260292053223,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3337,Brickyard</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.0958786010742,44.4924545288086,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3353,Bécancour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-72.43505859375,46.3506202697754,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3350,Champlain</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-72.345100402832,46.4409103393555,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3335,Deschaillons</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-72.1053924560547,46.5544509887695,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3325,Grondines</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-72.0314636230469,46.5935516357422,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3190,Grosse Île</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.6713714599609,47.0284614562988,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3180,Ile aux Grues</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.5500030517578,47.0666656494141,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3251,Immigration Wharf</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-74.1405563354492,45.4585380554199,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3095,Montmorency</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.1621704101563,46.8706245422363,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3280,Neuville</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.5910263061523,46.6968421936035,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3295,Pointe-au-Platon</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.8468017578125,46.6701011657715,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3265,Pont de Québec</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.287971496582,46.7457275390625,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3248,Port de Québec (Vieux-Québec)</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.2100296020508,46.820613861084,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3300,Portneuf</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.890998840332,46.6984519958496,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3250,Québec (Lauzon)</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.1593704223633,46.8191871643066,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3100,Saint-François I.O.</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.8132019042969,47.0016822814941,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3105,Saint-Jean</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.8896255493164,46.9213943481445,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3080,Saint-Joachim</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.8440093994141,47.0558166503906,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3110,Saint-Laurent</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.749755859375,45.4985656738281,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3270,Saint-Nicolas</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.8623657226563,47.1619491577148,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3260,Saint-Romuald</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.2404632568359,46.7581405639648,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3087,Sainte-Anne-de-Beaupré</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.9465026855469,47.0161628723145,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3360,Trois-Rivières</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-72.5432815551758,46.3432388305664,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2995,Bic</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-68.7126693725586,48.3693809509277,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3125,Cacouna</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.5010375976563,47.9164237976074,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3060,Cap-aux-Corbeaux</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.463264465332,47.4385108947754,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3052,Cap-aux-Oies</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.2350692749023,47.4969215393066,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3122,Chenal de l'île Verte</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-72.1896362304688,46.5652160644531,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3480,Chicoutimi</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.1385116577148,48.3516731262207,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2880,Forestville</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.0876388549805,48.7391738891602,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3150,Grande Île</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-74.1422958374023,45.2754707336426,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3120,Ile Verte</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.9329376220703,51.3371391296387,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3058,Ile aux Coudres</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.3844451904297,47.3894424438477,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3140,Ile aux Lièvres</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.52001953125,50.4763221740723,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3145,Le Petit Pélerin</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.7579956054688,47.703441619873,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2900,Les Escoumins</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.4057312011719,48.3477668762207,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3175,L´Islet-sur-Mer</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.3710861206055,47.1284523010254,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3045,Pointe-au-Pic</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.1418991088867,47.6313629150391,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2980,Pointe-au-Père</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-68.459228515625,48.5019073486328,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3160,Pointe-aux-Orignaux</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.0223922729492,47.485164642334,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3460,Port-Alfred</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.9004516601563,48.3263092041016,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2985,Rimouski</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-68.5218887329102,48.3729476928711,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3130,Rivière-du-Loup</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.5359878540039,47.8359565734863,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3071,Rocher Neptune</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.6087188720703,47.161548614502,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3048,Saint-Irénée</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.2053451538086,47.5661964416504,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3170,Saint-Jean-Port-Joli</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.269416809082,47.2153816223145,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3057,Saint-Joseph-de-la-Rive</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.349739074707,47.4502944946289,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3030,Saint-Siméon</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.8777923583984,47.8443870544434,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3070,Sault-au-Cochon</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-70.6358795166016,47.2011795043945,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2883,Ste-Anne-de-Portneuf</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.107536315918,48.6094627380371,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3425,Tadoussac</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.7128372192383,48.1459770202637,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3166,Traverse Saint-Roch</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.145751953125,46.0010643005371,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3005,Trois-Pistoles</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.1652603149414,48.1192665100098,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2335,Anse-à-Valleau</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.5525970458984,49.0822372436523,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2490,Baie Johan-Beetz</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-62.7458038330078,50.3384666442871,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2840,Baie-Comeau</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-68.150390625,49.2212982177734,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2290,Cap d´Espoir</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.3281936645508,48.4284591674805,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2940,Cap-Chat</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.6857376098633,49.094066619873,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2460,Cap-de-Rabast</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.1503829956055,49.951114654541,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2200,Carleton-Centre</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.1300582885742,48.1055488586426,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2340,Cloridorme</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.837028503418,49.1777648925781,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2253,Gascons</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.857666015625,48.1948776245117,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2320,Gaspé</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.4869003295898,48.8316345214844,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2826,Godbout</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-67.5999298095703,49.3244247436523,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2279,Grande-Rivière</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.4912643432617,48.395866394043,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2350,Grande-Vallée</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.1334686279297,49.2245903015137,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2230,Havre de Beaubassin</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.480094909668,48.0423698425293,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2480,Havre-Saint-Pierre</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.5985679626465,50.241813659668,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2975,Institut Maurice-Lamontagn</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-68.1553726196289,48.6397590637207,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2309,Mal-Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.2064590454102,48.6244697570801,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2955,Matane</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-67.5305786132813,48.8445167541504,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2196,Miguasha</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.2755432128906,48.0854873657227,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2470,Mingan</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.0231628417969,50.2914581298828,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2920,Mont-Louis</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.7306976318359,49.2294578552246,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2260,Newport</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.7431030273438,48.2671012878418,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2235,Paspébiac</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.2526092529297,48.0325927734375,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2375,Pointe du Sud-Ouest</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.5496597290039,45.4508056640625,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2310,Pointe-Saint-Pierre</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.176887512207,48.6273384094238,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2790,Port-Cartier</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.8759994506836,50.0212516784668,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2250,Port-Daniel</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.9710388183594,48.1798629760742,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2360,Port-Menier</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.3526840209961,49.8188133239746,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2330,Rivière-au-Renard</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.3839874267578,48.9922409057617,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2750,Rivière-au-Tonnerre</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.7686004638672,50.2751922607422,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2240,Saint-Godefroi</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.1240768432617,48.078971862793,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2935,Sainte-Anne-des-Monts</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.4892883300781,49.1245765686035,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2780,Sept-Îles</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-66.3757934570313,50.2132949829102,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2285,Ste-Thérèse-de-Gaspé</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.4192733764648,48.4086952209473,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1970,Cap-aux-Meules</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.8713569641113,47.3777389526367,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1985,Grande-Entrée</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.54736328125,47.5538673400879,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1964,Havre Aubert</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.8461303710938,47.2341613769531,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1966,Ile d'Entrée</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.6972579956055,47.2767295837402,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1987,Leslie</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.5163879394531,47.6211128234863,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1960,Millerand</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.990119934082,47.2241897583008,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1986,Old Harry</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.4783325195313,47.5727767944336,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1981,Pointe Basse</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.7916679382324,47.3930549621582,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2410,Pointe Heath</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.705738067627,49.0867919921875,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>1990,Étang-du-Nord</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.9458198547363,47.3729476928711,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2585,Baie de Brador</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.2411689758301,51.5025405883789,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2556,Baie-des-Moutons</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-59.0119247436523,50.759334564209,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2588,Blanc-Sablon</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-57.1313133239746,51.4264450073242,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2530,Gethsémani</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-60.6904258728027,50.2199401855469,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2550,Harrington Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-59.4833335876465,50.5,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2580,Ile Eskimo</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-63.6166648864746,50.216667175293,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2518,Kegashka</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.2721290588379,50.1890258789063,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2558,La Tabatière</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-58.9755554199219,50.8308334350586,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2510,Natashquan</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-61.8315086364746,50.1944999694824,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2564,Saint-Augustin</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-58.6515426635742,51.2327690124512,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>2554,Tête-à-la-Baleine</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-59.3222579956055,50.7024612426758,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>15780,Contrecoeur</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.2412796020508,45.8654098510742,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>15975,Lac Saint-Pierre</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-72.8283843994141,46.2044372558594,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>15540,Montréal-Frontenac</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.5563049316406,45.5345420837402,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>15520,Montréal-Jetée no.1</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.5,45.5,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>15330,Pointe-Claire</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.7990188598633,45.4719657897949,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>3365,Port Saint-François</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-72.6152725219727,46.2694320678711,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>16005,Sainte-Anne-de-Bellevue</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.9503631591797,45.4032745361328,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>15930,Sorel</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.1123046875,46.0428237915039,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>15660,Varennes</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-73.4375,45.6810340881348,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4710,Eastmain</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-78.5177612304688,52.2337226867676,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4645,Kuujjuarapik</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-77.763786315918,55.2745704650879,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4680,La Grande Rivière</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.4912643432617,48.395866394043,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4662,Roggan River</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-79.4166641235352,54.4000015258789,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4538,Akulivik</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-78.1442413330078,60.8176803588867,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4460,Deception Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-74.5833358764648,57.3333320617676,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4480,Digges Harbour</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-77.8615951538086,62.577709197998,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4415,Doctor Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.5783386230469,61.6652030944824,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4325,Hopes Advance Bay</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.6666030883789,59.3332366943359,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4575,Inukjuak</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-78.1051025390625,58.4551200866699,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4279,Kangiqsualujjuaq</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-65.9951171875,58.7101554870605,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4425,Kangiqsujuaq</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-71.9538879394531,61.5962600708008,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4298,Kuujjuaq</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-68.4188385009766,58.1029968261719,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4315,Lac aux Feuilles</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.8633499145508,58.755542755127,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4548,North Kopak Island</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-77.5591888427734,60.034969329834,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4265,Port Burwell</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-64.8192367553711,60.4162673950195,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4379,Quaqtaq</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-69.6399230957031,61.0417251586914,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4295,Rivière Koksoak</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-68.2650299072266,58.2516059875488,0 </coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>4470,Salluit</name>
+            <styleUrl>#msn_grn-pushpin</styleUrl>
+            <Point>
+                <coordinates>-75.646858215332,62.201286315918,0 </coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+  </Document>
+</kml>

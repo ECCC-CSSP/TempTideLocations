@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{99CEEF68-A800-4156-B7BA-466B29DC32E3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Address.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AppErrLog.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AppTask.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AppTaskLanguage.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetRole.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUser.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserClaim.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserLogin.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BoxModel.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BoxModelLanguage.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BoxModelResult.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClimateDataValue.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClimateSite.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Email.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HydrometricDataValue.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HydrometricSite.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Infrastructure.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InfrastructureLanguage.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LabContract.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LabContractSubsector.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LabContractSubsectorSite.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LabSheet.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MapInfo.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MapInfoPoint.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MikeBoundaryCondition.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MikeScenario.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MikeSource.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MikeSourceStartEnd.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MWQMLookupMPN.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MWQMRun.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MWQMRunLanguage.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MWQMSample.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MWQMSampleLanguage.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MWQMSite.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MWQMSubsector.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MWQMSubsectorLanguage.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PolSourceObservation.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PolSourceSite.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RatingCurve.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RatingCurveValue.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPassword.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spill.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SpillLanguage.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tel.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TideDataValue.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TideLocation.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TideLocationEDM.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TideLocationEDM.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TideLocationEDM.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TideLocationEDM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TideLocationEDM.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="TideSite.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TVFile.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TVItem.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TVItemLanguage.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TVItemLink.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TVItemStat.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TVItemUserAuthorization.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TVTypeUserAuthorization.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UseOfSite.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VPAmbient.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VPResult.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VPScenario.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VPScenarioLanguage.cs">
+      <DependentUpon>TideLocationEDM.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EntityDeploy Include="TideLocationEDM.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TideLocationEDM.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Subsector Tide Options by priorities.xlsx" />
+    <None Include="SubsectorAndTideLocation.kml" />
+    <None Include="TideLocation.kml" />
+    <None Include="TideLocationEDM.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TideLocationEDM.edmx</DependentUpon>
+      <LastGenOutput>TideLocationEDM.Context.cs</LastGenOutput>
+    </None>
+    <None Include="TideLocationEDM.edmx.diagram">
+      <DependentUpon>TideLocationEDM.edmx</DependentUpon>
+    </None>
+    <None Include="TideLocationEDM.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TideLocationEDM.edmx</DependentUpon>
+      <LastGenOutput>TideLocationEDM.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GeoCode.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

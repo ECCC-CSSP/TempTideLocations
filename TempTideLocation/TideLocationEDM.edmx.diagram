@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="59d6f9a0ea554ad7993dbbdb299c778d" Name="Diagram1">
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.Address" Width="1.5" PointX="3" PointY="139.125" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.AppErrLog" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.AppTaskLanguage" Width="1.5" PointX="5.25" PointY="153" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.AppTask" Width="1.5" PointX="3" PointY="152.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.AspNetRole" Width="1.5" PointX="1.5" PointY="173.625" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.AspNetUserClaim" Width="1.5" PointX="3" PointY="176.25" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.AspNetUserLogin" Width="1.5" PointX="3" PointY="82" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.AspNetUser" Width="1.5" PointX="0.75" PointY="96.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.BoxModelLanguage" Width="1.5" PointX="5.25" PointY="58.625" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.BoxModelResult" Width="1.5" PointX="5.25" PointY="61.875" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.BoxModel" Width="1.5" PointX="3" PointY="60.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.ClimateDataValue" Width="1.5" PointX="5.25" PointY="166.625" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.ClimateSite" Width="1.5" PointX="3" PointY="166.5" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.Contact" Width="1.5" PointX="3" PointY="91.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.Email" Width="1.5" PointX="3" PointY="11.25" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.HydrometricDataValue" Width="1.5" PointX="5.25" PointY="29.5" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.HydrometricSite" Width="1.5" PointX="3" PointY="28.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.InfrastructureLanguage" Width="1.5" PointX="5.25" PointY="22" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.Infrastructure" Width="1.5" PointX="3" PointY="19.125" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.LabContract" Width="1.5" PointX="3" PointY="124.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.LabContractSubsector" Width="1.5" PointX="5.25" PointY="104.25" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.LabContractSubsectorSite" Width="1.5" PointX="7.5" PointY="93.875" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.LabSheet" Width="1.5" PointX="3" PointY="39" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MapInfoPoint" Width="1.5" PointX="5.25" PointY="157.75" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MapInfo" Width="1.5" PointX="3" PointY="157.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MikeBoundaryCondition" Width="1.5" PointX="3" PointY="143.75" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MikeScenario" Width="1.5" PointX="3" PointY="47.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MikeSource" Width="1.5" PointX="3" PointY="14.875" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MikeSourceStartEnd" Width="1.5" PointX="5.25" PointY="14.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MWQMLookupMPN" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MWQMRunLanguage" Width="1.5" PointX="5.25" PointY="130.5" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MWQMRun" Width="1.5" PointX="3" PointY="128.25" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MWQMSampleLanguage" Width="1.5" PointX="5.25" PointY="35" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MWQMSample" Width="1.5" PointX="3" PointY="34.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MWQMSite" Width="1.5" PointX="3" PointY="98.75" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MWQMSubsectorLanguage" Width="1.5" PointX="5.25" PointY="75.5" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.MWQMSubsector" Width="1.5" PointX="3" PointY="75.5" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.PolSourceObservation" Width="1.5" PointX="3" PointY="115.5" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.PolSourceSite" Width="1.5" PointX="3" PointY="101.875" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.RatingCurve" Width="1.5" PointX="3" PointY="67.25" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.RatingCurveValue" Width="1.5" PointX="5.25" PointY="67.25" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.ResetPassword" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.SpillLanguage" Width="1.5" PointX="5.25" PointY="43.75" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.Spill" Width="1.5" PointX="3" PointY="43.5" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.Tel" Width="1.5" PointX="3" PointY="78.75" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.TideDataValue" Width="1.5" PointX="3" PointY="147.875" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.TideLocation" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.TideSite" Width="1.5" PointX="3" PointY="136" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.TVFile" Width="1.5" PointX="3" PointY="161.5" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.TVItemLanguage" Width="1.5" PointX="3" PointY="109.125" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.TVItemLink" Width="1.5" PointX="3" PointY="70.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.TVItem" Width="1.5" PointX="0.75" PointY="83.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.TVItemStat" Width="1.5" PointX="3" PointY="112.375" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.TVItemUserAuthorization" Width="1.5" PointX="3" PointY="54.625" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.TVTypeUserAuthorization" Width="1.5" PointX="3" PointY="106" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.UseOfSite" Width="1.5" PointX="3" PointY="119.125" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.VPAmbient" Width="1.5" PointX="5.25" PointY="85.125" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.VPResult" Width="1.5" PointX="5.25" PointY="90" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.VPScenarioLanguage" Width="1.5" PointX="5.25" PointY="81.875" />
+        <EntityTypeShape EntityType="CSSPWebToolsDBModel.VPScenario" Width="1.5" PointX="3" PointY="84.5" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_Addresses_AddressTVItemID" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_Addresses_CountryTVItemID" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_Addresses_MunicipalityTVItemID" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_Addresses_ProvinceTVItemID" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_AppTaskLanguages_AppTasks" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_AppTasks_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_AppTasks_TVItems2" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_Contacts_AspNetUsers" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_BoxModelLanguages_BoxModels" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_BoxModelResults_BoxModels" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_BoxModels_InfrastructureTVItemID" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_ClimateDataValues_ClimateSites" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_ClimateSites_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_Contacts_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_EmailTVItemID_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_HydrometricDataValues_HydrometricSites" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_HydrometricSites_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_InfrastructureLanguages_Infrastructures" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_Infrastructures_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_LabContracts_CreatorContactTVItemID" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_LabContractSubsectors_LabContracts" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_LabContractSubsectors_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_LabContractSubsectorSites_LabContractSubsectors" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_LabContractSubsectorSites_MWQMSiteTVItemID" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_LabSheets_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MapInfoPoints_MapInfos" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MapInfos_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MikeBoundaryConditions_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MikeScenarios_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MikeSources_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MikeSourceStartEnds_MikeSources" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MWQMRunLanguages_MWQMRuns" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MWQMRuns_MWQMSiteTVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MWQMRuns_SamplingTVItemContacts" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MWQMRuns_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MWQMRuns_ValidatorTVItemContacts" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MWQMSampleLanguages_MWQMSamples" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MWQMSamples_MWQMSites" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MWQMSamples_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MWQMSites_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MWQMSubsectorLanguages_MWQMSubsectors" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_MWQMSubsectors_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_PolSourceObservations_PolSourceSites" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_PolSourceObservations_TVItemContact" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_PolSourceSites_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_RatingCurves_HydrometricSites" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_RatingCurveValues_RatingCurves" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_SpillLanguages_Spills" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_Spills_InfrastructureTVItemID" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_Spills_MunicipalityTVIteID" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TelTVItemID_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TideDataValues_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TideSites_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TVFiles_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TVItemLanguages_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TVItemLinks_FromTVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TVItemLinks_ParentTVItemLinks" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TVItemLinks_ToTVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TVItems_ParentID" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TVItemStats_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TVItemsUserAuthorizations_TVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TVItemUserAuthorizations_Contacts" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_TVTypeUserAuthorizations_Contacts" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_UseOfSites_SiteTVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_UseOfSites_SubsectorTVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_VPScenarios_InfrastructureTVItems" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_VPAmbients_VPScenarios" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_VPResults_VPScenarios" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.FK_VPScenarioLanguages_VPScenarios" />
+        <AssociationConnector Association="CSSPWebToolsDBModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

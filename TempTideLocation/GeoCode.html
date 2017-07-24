@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script>
+        var geocoder;
+        var Start = "N";
+
+        function initialize() {
+            geocoder = new google.maps.Geocoder();
+        }
+
+        function codeAddress() {
+            var addressArr = [];
+            addressArr.push("aaaaa");
+            addressArr.push("Knox Bay,BC");
+            addressArr.push("Prideaux Haven,BC");
+            addressArr.push("Jennis Bay,BC");
+            addressArr.push("Jessie Point,BC");
+            addressArr.push("Montagu Point,BC");
+            addressArr.push("Stuart Narrows,BC");
+            addressArr.push("Sunday Harbour,BC");
+            addressArr.push("Adams Harbour,BC");
+            addressArr.push("Alison Sound,BC");
+            addressArr.push("Gosling Island,BC");
+            addressArr.push("Leroy Bay,BC");
+            addressArr.push("Nugent Sound,BC");
+            addressArr.push("Atli Inlet,BC");
+            addressArr.push("Beauchemin Channel,BC");
+            addressArr.push("Forit Bay,BC");
+            addressArr.push("Gerald Point,BC");
+            addressArr.push("Gillen Harbour,BC");
+            addressArr.push("Kynumpt Harbour,BC");
+            addressArr.push("Port Blackney,BC");
+            addressArr.push("Griffith Harbour,BC");
+            addressArr.push("Kemano Bay,BC");
+            addressArr.push("Qlawdzeet Anchorage,BC");
+            addressArr.push("Seabreeze Point,BC");
+            addressArr.push("Surf Inlet,BC");
+            addressArr.push("Welcome Harbour,BC");
+            addressArr.push("Brundige Inlet,BC");
+            addressArr.push("Heater Harbour,BC");
+            addressArr.push("Hunger Harbour,BC");
+            addressArr.push("Henslung Cove,BC");
+            addressArr.push("Langara Point,BC");
+            addressArr.push("Nesto Inlet,BC");
+            addressArr.push("Trounce Inlet,BC");
+            addressArr.push("Wiah Point,BC");
+            addressArr.push("Brownell Point,NL");
+            addressArr.push("Cabot Point,NL");
+            addressArr.push("Jackos Point,NL");
+            addressArr.push("Jordans Point,NL");
+            addressArr.push("Dildo Run (Causeway),NL");
+            addressArr.push("Slatons Brook,NL");
+            addressArr.push("Couteau Bay,NL");
+            addressArr.push("Duffus Point,NS");
+            addressArr.push("West Newdy Quoddy,NS");
+            addressArr.push("Cape Capstan,NS");
+            addressArr.push("Cape Sharp,NS");
+            addressArr.push("Isle Haute,NS");
+            addressArr.push("Grand Eddy,NS");
+            addressArr.push("Swims Point,NS");
+            addressArr.push("Coffin Point,NB");
+            addressArr.push("McMaster Island,NB");
+            addressArr.push("Bear Island (James Bay),NU");
+            addressArr.push("Agvik Island,QC");
+            addressArr.push("Douglas Harbour,QC");
+            addressArr.push("Ile Basking,QC");
+            addressArr.push("Ile Pikiyulik,QC");
+            addressArr.push("Port de Laperriere,QC");
+            addressArr.push("Stupart Bay,QC");
+            addressArr.push("Atkinson Point,NU");
+            addressArr.push("Cape Dalhousie,NU");
+            addressArr.push("Kay point,NT");
+            addressArr.push("Krubluyak Point,NT");
+            addressArr.push("Paulatuk,NU");
+            addressArr.push("Pelly Island,NU");
+            addressArr.push("Sachs Harbour,NU");
+            addressArr.push("Shingle Point,NT");
+            addressArr.push("Tuktoyaktuk,NU");
+            addressArr.push("Tysoe Point,NT");
+            addressArr.push("Airstrip Point,NU");
+            addressArr.push("Bernard Harbour,NU");
+            addressArr.push("Cambridge Bay,NU");
+            addressArr.push("Cameron Island,NU");
+            addressArr.push("Cape Capel,NU");
+            addressArr.push("False Strait,NU");
+            addressArr.push("Gladman Point,NU");
+            addressArr.push("Hamilton Island,NU");
+            addressArr.push("Isachsen,NU");
+            addressArr.push("Kugluktuk,NU");
+            addressArr.push("Peel Point,NU");
+            addressArr.push("Bay of Woe,NU");
+            addressArr.push("Discovery Harbour,NU");
+            addressArr.push("Disraeli Fiord,NU");
+            addressArr.push("Greely Fiord,NU");
+            addressArr.push("Wrangel Bay,NU");
+            addressArr.push("Cape Augherston,NU");
+            addressArr.push("Fury Point,NU");
+            addressArr.push("Port Bowen,NU");
+            addressArr.push("Sévigny Point,NU");
+            addressArr.push("Whaler Point,NU");
+            addressArr.push("Brevoort Harbour,NU");
+            addressArr.push("Port de Boucherville,NU");
+            addressArr.push("Sault Ste Marie above/amont,ON");
+            addressArr.push("Sault Ste Marie below/aval,ON");
+            //addressArr.push("Iroquois above/amont,ON");
+            //addressArr.push("Iroquois below/aval,ON");
+
+
+
+            Start = "N";
+            for (var i = 0, count = addressArr.length; i < count; i++) {
+                var addr = addressArr[i];
+                var last = document.getElementById("last").value;
+                if (Start == "Y") {
+                    FindLatLng(addr);
+                }
+                if (addr == last) {
+                    Start = "Y";
+                }
+            }
+
+        }
+        function FindLatLng(addr) {
+            geocoder.geocode({ 'address': addr }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    document.getElementById("last").value = addr;
+                    document.getElementById("ttt").innerHTML = document.getElementById("ttt").innerHTML + addr + "," + results[0].geometry.location.lat() + "," + results[0].geometry.location.lng() + "|||";
+                } else {
+                    //alert("Geocode was not successful for the following reason: " + status);
+                }
+            });
+        }
+
+    </script>
+</head>
+<body onload="initialize()">
+    <div>
+        <input type="text" id="last" value="">
+        <input type="button" value="Encode" onclick="codeAddress();">
+        <textarea rows="10" id="ttt" style="width: 100%"></textarea>
+    </div>
+</body>
+</html>
