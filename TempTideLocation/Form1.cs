@@ -46,7 +46,7 @@ namespace WindowsFormsApplication1
         private void button3_Click(object sender, EventArgs e)
         {
             StringBuilder sb = new StringBuilder();
-            using (CSSPWebToolsDBEntities db = new CSSPWebToolsDBEntities())
+            using (CSSPDBEntities db = new CSSPDBEntities())
             {
                 List<TideLocation> tideLocationList = (from c in db.TideLocations
                                                        where c.Lat == 0
@@ -71,7 +71,7 @@ namespace WindowsFormsApplication1
             string[] strArr = new string[1];
             strArr[0] = "|||";
             List<string> elemList = content.Split(strArr, StringSplitOptions.None).ToList();
-            using (CSSPWebToolsDBEntities db = new CSSPWebToolsDBEntities())
+            using (CSSPDBEntities db = new CSSPDBEntities())
             {
                 foreach (string sv in elemList)
                 {
@@ -143,7 +143,7 @@ namespace WindowsFormsApplication1
 
                 };
 
-                using (CSSPWebToolsDBEntities db = new CSSPWebToolsDBEntities())
+                using (CSSPDBEntities db = new CSSPDBEntities())
                 {
                     TideLocation tideLocationExist = (from c in db.TideLocations
                                                       where c.Name == name
@@ -279,7 +279,7 @@ namespace WindowsFormsApplication1
             sb.AppendLine(@"	</Style>");
 
 
-            using (CSSPWebToolsDBEntities db = new CSSPWebToolsDBEntities())
+            using (CSSPDBEntities db = new CSSPDBEntities())
             {
                 for (int i = 0, count = Prov2Letter.Count; i < count; i++)
                 {
@@ -546,7 +546,7 @@ namespace WindowsFormsApplication1
             sb.AppendLine(@"	</Style>");
 
 
-            using (CSSPWebToolsDBEntities db = new CSSPWebToolsDBEntities())
+            using (CSSPDBEntities db = new CSSPDBEntities())
             {
                 for (int i = 0, count = Prov2Letter.Count; i < count; i++)
                 {
@@ -727,7 +727,7 @@ namespace WindowsFormsApplication1
 
                 //if (SSID == "561")
                 //{
-                    using (CSSPWebToolsDBEntities db = new CSSPWebToolsDBEntities())
+                    using (CSSPDBEntities db = new CSSPDBEntities())
                     {
                         string AllSID = "";
                         if (First.Length > 0)
